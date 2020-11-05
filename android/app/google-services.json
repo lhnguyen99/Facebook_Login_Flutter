@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1092725416437",
+    "firebase_url": "https://demologin-9f0e2.firebaseio.com",
+    "project_id": "demologin-9f0e2",
+    "storage_bucket": "demologin-9f0e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092725416437:android:3440c43d222e52059d40bc",
+        "android_client_info": {
+          "package_name": "com.example.facebook_signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092725416437-u4j2ru83kjf8onj495hnmpn9iv7scbmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdcdgzgcPpFyo-fnQyny_VCdNOe9TvoMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092725416437-u4j2ru83kjf8onj495hnmpn9iv7scbmo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1092725416437-7tbves0anhu2g1mie9smad2chsusmk8r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.passio.passioemployee"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092725416437:android:08b10ab7df5b9fac9d40bc",
+        "android_client_info": {
+          "package_name": "com.tult.football_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092725416437-1gncch0are0ssqceoas5605poa4bd5bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tult.football_manager",
+            "certificate_hash": "ceacb205e85afa03e2baa7464ef89abb6dc1fe61"
+          }
+        },
+        {
+          "client_id": "1092725416437-a66vguasuc1tvnc4sa66je4ubfepq929.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tult.football_manager",
+            "certificate_hash": "0d721ace329e7c99c9afc1aac62d83d440dc844c"
+          }
+        },
+        {
+          "client_id": "1092725416437-u4j2ru83kjf8onj495hnmpn9iv7scbmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdcdgzgcPpFyo-fnQyny_VCdNOe9TvoMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092725416437-u4j2ru83kjf8onj495hnmpn9iv7scbmo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1092725416437-7tbves0anhu2g1mie9smad2chsusmk8r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.passio.passioemployee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
