@@ -14,7 +14,9 @@ class AuthBloc {
     final res = await fb.logIn(
       permissions: [
         FacebookPermission.publicProfile,
-        FacebookPermission.email
+        FacebookPermission.email,
+        // FacebookPermission.userAboutMe,
+        // FacebookPermission.userPhotos
       ]
     );
 
@@ -33,6 +35,12 @@ class AuthBloc {
       final result = await authService.signInWithCredentail(credential);
 
       print('${result.user.displayName} is now logged in');
+      print('${result.user.email} is now logged in');
+      print('${result.user.phoneNumber} is now logged in');
+      print('${result.user.emailVerified} emailVerified');
+
+
+
 
       break;
       case FacebookLoginStatus.Cancel:

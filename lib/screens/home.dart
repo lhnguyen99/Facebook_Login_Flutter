@@ -51,10 +51,15 @@ class _HomeState extends State<Home> {
               Text(snapshot.data.displayName,style:TextStyle(fontSize: 35.0)),
               SizedBox(height: 20.0,),
               CircleAvatar(
-                backgroundImage: NetworkImage(snapshot.data.photoUrl + '?width=500&height500'),
+                backgroundImage: NetworkImage(snapshot.data.photoURL + '?width=500&height500'),
                 radius: 60.0,
                 ),
-              SizedBox(height: 100.0,),
+                SizedBox(height: 20.0,),
+                Text(snapshot.data.email,style:TextStyle(fontSize: 10.0)),
+                // SizedBox(height: 20.0,),
+                // Text(snapshot.data.phoneNumber,style:TextStyle(fontSize: 10.0)),
+
+                SizedBox(height: 100.0,),
               SignInButton( 
                 Buttons.Facebook,
                 text: 'Sign out of Facebook',
