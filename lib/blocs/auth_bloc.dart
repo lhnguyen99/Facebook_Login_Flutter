@@ -6,7 +6,7 @@ class AuthBloc {
   final authService = AuthService();
   final fb = FacebookLogin();
 
-  Stream<FirebaseUser> get currentUser => authService.currentUser;
+  Stream<User> get currentUser => authService.currentUser;
 
   loginFacebook() async {
     print('Starting Facebook Login');
@@ -26,8 +26,8 @@ class AuthBloc {
       final FacebookAccessToken fbToken = res.accessToken;
 
       //Convert to Auth Credential
-      final AuthCredential credential 
-        = FacebookAuthProvider.getCredential(accessToken: fbToken.token);
+      final AuthCredential credential
+        = FacebookAuthProvider.credential(fbToken.token);
 
       //User Credential to Sign in with Firebase
       final result = await authService.signInWithCredentail(credential);

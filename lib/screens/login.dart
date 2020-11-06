@@ -16,7 +16,7 @@ class Login extends StatefulWidget {
 
 
 class _LoginState extends State<Login> {
-  StreamSubscription<FirebaseUser> loginStateSubscription;
+  StreamSubscription<User> loginStateSubscription;
 
   @override
   void initState() {

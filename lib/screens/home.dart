@@ -14,7 +14,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  StreamSubscription<FirebaseUser> homeStateSubscription;
+  StreamSubscription<User> homeStateSubscription;
 
    @override
   void initState() {
@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
     var authBloc = Provider.of<AuthBloc>(context);
     return Scaffold(  
       body: Center( 
-        child: StreamBuilder<FirebaseUser>(
+        child: StreamBuilder<User>(
           stream: authBloc.currentUser,
           builder: (context, snapshot) {
             if (!snapshot.hasData) return CircularProgressIndicator();
